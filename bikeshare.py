@@ -1,6 +1,8 @@
 import time
 import pandas as pd
 
+# city data for 3 cities, months from january to june and weekdays from monday to sunday
+
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
@@ -51,6 +53,8 @@ def get_filters():
                 _day = False
             day = _day
 
+	#print selection - selected city, month and day
+			
         print(f"""Your selection is the following:
          - Selected   City: {_city}
          - Selected  Month: {_month}
