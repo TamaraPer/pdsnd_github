@@ -51,6 +51,8 @@ def get_filters():
                 _day = False
             day = _day
 
+	#print selection - selected city, month and day
+			
         print(f"""Your selection is the following:
          - Selected   City: {_city}
          - Selected  Month: {_month}
